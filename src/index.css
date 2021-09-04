@@ -141,7 +141,6 @@ form button {
   color: #fff;
   border-radius: 7px;
   width: 20%;
-  min-width: fit-content;
   margin: 30px;
   text-align: center;
 }
