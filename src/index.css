@@ -128,7 +128,7 @@ form button {
 
 .main-info,
 .interesting-stocks-box {
-  background-color: #837efd;
+  background-color: #9d9af8;
   box-shadow: -6px -6px 8px rgba(131, 126, 253, 0.45);
 }
 
@@ -239,20 +239,20 @@ h3 {
 }
 
 .most-active-box {
-  background-color: rgb(232, 89, 0);
-  box-shadow: -6px -6px 8px rgba(232, 89, 0, 0.45);
+  background-color: rgb(0, 54, 232);
+  box-shadow: -6px -6px 8px rgba(85, 125, 235, 0.45);
   cursor: pointer;
 }
 
 .most-gainer-box {
-  background-color: rgb(45, 209, 164);
-  box-shadow: -6px -6px 8px rgba(45, 209, 164, 0.45);
+  background-color: rgb(78, 245, 12);
+  box-shadow: -6px -6px 8px rgba(105, 235, 105, 0.45);
   cursor: pointer;
 }
 
 .most-loser-box {
-  background-color: rgb(227, 79, 91);
-  box-shadow: -6px -6px 8px rgba(227, 79, 91, 0.45);
+  background-color: rgb(156, 19, 235);
+  box-shadow: -6px -6px 8px rgba(77, 7, 124, 0.45);
   cursor: pointer;
 }
 
