@@ -1,12 +1,12 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Catalog from './components/Catalog';
 import Details from './components/Details';
 import Navbar from './components/NavBar';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <div className="App">
         <Navbar />
         <Switch>
@@ -15,7 +15,7 @@ function App() {
           <Route path="/details/:stock" component={Details} />
         </Switch>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 

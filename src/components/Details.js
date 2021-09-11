@@ -23,9 +23,6 @@ function Details({ match }) {
   if (Object.keys(state.stockInfo).length !== 0) {
     return (
       <div className="Details">
-        <div className="form-container-details">
-          <StocksForm />
-        </div>
         <div className="main-info-container">
           <div className="info-box main-info">
             <p className="info-box-data">{state.stockInfo.name}</p>
