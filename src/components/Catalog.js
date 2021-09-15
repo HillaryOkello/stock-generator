@@ -1,6 +1,6 @@
 import React from 'react';
 import StocksList from '../containers/StocksList';
-import Filter from './Filter';
+import Filter from '../containers/Filter';
 
 function Catalog() {
   return (

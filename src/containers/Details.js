@@ -2,8 +2,8 @@ import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import moment from 'moment';
 import PropTypes from 'prop-types';
-import StocksForm from '../containers/StocksForm';
-import StocksList from '../containers/StocksList';
+import StocksForm from './StocksForm';
+import StocksList from './StocksList';
 import requestStockInfo from '../actions/searchedStockActions';
 
 function Details({ match }) {
