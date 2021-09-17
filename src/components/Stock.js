@@ -36,7 +36,7 @@ function Stock({ stock }) {
     source = 'most-active';
   }
   return (
-    <div className={`info-box ${source}-box card`} id={stock.symbol}>
+    <div className={`info-box ${source}-box`} id={stock.symbol}>
       <Link to={`/details/${stock.symbol}`}>
         <p className="info-box-company" id={stock.symbol}>
           {stock.name}
