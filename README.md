@@ -4,7 +4,7 @@
 
 ![Top Page Screenshot](./src/assets/screenshot.png)
 
-> This simple stock generator application built with React and Redux that generates random stock data from the Financial Modeling Prep API. The stock data is fetched from the API and stored in the Redux store then accessed by React hooks. The project consists of two pages: the home page which displays all the stock data and the details page which displays the stock data for a specific stock. The search bar allows you to search for a specific stock by symbol. The application uses the [React Router](https://reactrouter.com/) library to navigate between pages. The filter by exchange button lets you filter the stock data by exchange. There are two exchanges in which they are filtered, the NYSE and the NASDAQ.
+> This is a simple stock generator application built with React and Redux it generates random stock data from the Financial Modeling Prep API. The stock data is fetched from the API and stored in the Redux store then accessed by React hooks. The project consists of two pages: the home page which displays all the stock data and the details page which displays the stock data for a specific stock. The search bar allows you to search for a specific stock by a symbol. The application uses the [React Router](https://reactrouter.com/) library to navigate between pages. The filter by exchange button lets you filter the stock data by an exchange. There are two exchanges in which they are filtered, the NYSE and the NASDAQ.
 
 ## Table of Contents
 
